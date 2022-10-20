@@ -1,0 +1,129 @@
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    color:var(--primary-text-color);
+    font-family: roboto, sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.navigation,
+.feature,
+.work{
+    background-color: #FFFFFF;
+}
+.logo {
+    font-family: raleway;
+    color:#000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19x;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+.site-nav .link{
+    color:var(--title-text-color);   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+.contact-us .link{
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+.contact-us .link:focus,
+.contact-us .link:hover{
+    color:var(--accent-color)
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title{
+    
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.hero-button{
+    background-color:var(--accent-color);
+    color:#ffffff;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+}
+
+.feature .title{
+    color:var(--title-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.work .work-title,
+.team .team-title{
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team .member-name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
+
+.team .member-job{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+
+}
