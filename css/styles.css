@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --primary-darkgrey-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 .nav-top,
 .feature,
 .work {
-  background-color: #ffffff;
+  background-color:var(--primary-white-color);
 }
 .logo {
   font-family: raleway, sans-serif;
@@ -77,7 +78,7 @@ body {
 }
 
 .hero-title {
-  color: #ffffff;
+  color:var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -88,7 +89,7 @@ body {
 
 .hero-button {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color:var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -122,7 +123,7 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color:var(--secondary-background-color);
 }
 
 .team .member-name {
@@ -165,7 +166,7 @@ body {
 }
 
 .our-work .filter-button {
-  background-color: #f5f4fa;
+  background-color:var(--secondary-background-color);
   color: var(--title-text-color);
   border-style: none;
   font-family: 'Roboto', sans-serif;
