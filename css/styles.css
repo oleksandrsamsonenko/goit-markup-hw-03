@@ -4,6 +4,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --primary-darkgrey-color: #2F303A;
 }
 
 body {
@@ -24,13 +25,19 @@ body {
     color:#000000;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19x;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo-accent {
-    color: #2196F3;
+    color:var(--accent-color);
+
 }
+.logo-white {
+    color:var(--primary-white-color);
+}
+
 .list {
     list-style: none;
 }
@@ -64,7 +71,7 @@ body {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color:var(--primary-darkgrey-color)
 }
 
 .hero-title{
@@ -81,7 +88,7 @@ body {
 .hero-button{
     background-color:var(--accent-color);
     color:#ffffff;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -126,4 +133,27 @@ body {
     line-height:1.19;
     letter-spacing: 0.03em;
 
+}
+
+footer{
+    background-color:var(--primary-darkgrey-color);
+}   
+.site-address .howtoget{
+    color:var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.site-address .link{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
