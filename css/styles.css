@@ -48,9 +48,11 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link.current {
   color: var(--accent-color);
 }
+
 
 .contact-us .link {
   color: var(--primary-text-color);
