@@ -177,6 +177,9 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
+.our-work .filter-button.current{
+  background-color: var(--accent-color);
+}
 
 .our-work .filter-button:hover,
 .our-work .filter-button:focus {
