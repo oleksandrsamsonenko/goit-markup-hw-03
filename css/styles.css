@@ -29,6 +29,21 @@ body {
   text-decoration: none;
 }
 
+.site-nav,
+.main-nav,
+.nav-top {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.site-nav .item + .item {
+  margin-left: 50px;
+ 
+}
+
+
 .logo-accent {
   color: var(--accent-color);
 }
@@ -39,7 +54,11 @@ body {
 .list {
   list-style: none;
 }
+
+
 .site-nav .link {
+
+  
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -54,7 +73,12 @@ body {
   color: var(--accent-color);
 }
 
-
+.contact-us {
+  display: flex;
+}
+.contact-us .item + .item{
+margin-left: 50px;
+}
 .contact-us .link {
   color: var(--primary-text-color);
   font-weight: 500;
