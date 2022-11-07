@@ -224,7 +224,7 @@ margin-left: 50px;
 .work-list .item {
   margin-right: 31px;
   /* margin-bottom: 94px; */
-  line-height: 0px;
+  line-height: 0;
 }
 
 .work-list .item:last-child{
@@ -398,7 +398,7 @@ margin-left: 50px;
 }
 .work-examples .item{
   margin-top: 30px;
-  /* outline: 1px solid red; */
+  line-height: 0;
 }
 
 .work-description{
