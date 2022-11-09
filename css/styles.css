@@ -126,7 +126,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
+/* .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link.current,
 .contact-us .link:focus,
@@ -136,8 +136,13 @@ img {
 .site-address .link:hover,
 .site-address .link:focus {
   color: var(--accent-color);
-}
+} */
 
+.site-nav .link.current,
+a.link:focus,
+a.link:hover {
+  color: var(--accent-color);
+}
 
 .container .navigation{
   display: flex;
@@ -340,7 +345,7 @@ margin-left: 50px;
   letter-spacing: 0.03em;
 }
 
-.site-address .link {
+.site-address .contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
@@ -377,7 +382,7 @@ margin-left: 50px;
   margin-left: 8px;
 }
 
-/* щось мені підказує що існує більш простий спосіб це зробити */
+/* щось мені підказує що існує більш простий спосіб це зробити, звісно окрім дати першій кнопці інший клас */
 .our-work li:first-child>.filter-button{
   padding-left:25px;
   padding-right: 25px;
