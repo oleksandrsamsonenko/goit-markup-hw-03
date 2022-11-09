@@ -17,6 +17,14 @@ body {
 h2 {
   margin: 0;
 }
+
+a{
+  text-decoration:none;
+}
+
+img {
+  display:block;
+}
 .list {
   list-style: none;
   padding: 0;
@@ -43,7 +51,7 @@ h2 {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid rgb(214, 13, 13); */
+  outline: 2px solid rgb(214, 13, 13);
 }
 
 .section {
@@ -111,12 +119,17 @@ h2 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .link.current {
+.site-nav .link.current,
+.contact-us .link:focus,
+.contact-us .link:hover,
+.site-address .howtoget:hover,
+.site-address .howtoget:focus,
+.site-address .link:hover,
+.site-address .link:focus {
   color: var(--accent-color);
 }
 
@@ -139,32 +152,24 @@ margin-left: 50px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.contact-us .link:focus,
-.contact-us .link:hover,
-.site-address .howtoget:hover,
-.site-address .howtoget:focus,
-.site-address .link:hover,
-.site-address .link:focus {
-  color: var(--accent-color);
 }
 
 .hero {
+  padding: 0;
   background-color: var(--primary-darkgrey-color);
   text-align: center;
 }
 
 .hero-title {
   color:var(--primary-white-color);
+  width: 696px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0;
   padding-top: 200px;
   
 }
@@ -225,9 +230,11 @@ margin-left: 50px;
   margin-left: 30px;
 }
 
+.what-we-do {
+  padding-top: 0;
+}
  .work-title{
   margin-bottom: 50px;
-  margin-top: 94px;
   text-align: center;
 }
 
@@ -238,7 +245,7 @@ margin-left: 50px;
 .work-list .item {
   margin-right: 31px;
   /* margin-bottom: 94px; */
-  line-height: 0;
+  
 }
 
 .work-list .item:last-child{
@@ -325,7 +332,6 @@ margin-left: 50px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .site-address .link {
@@ -334,12 +340,12 @@ margin-left: 50px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .our-work {
   background-color: var(--primary-white-color);
 }
+
 
 
 .button-list .list{
@@ -374,9 +380,7 @@ margin-left: 50px;
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.our-work .work-image {
-  text-decoration: none;
-}
+
 
 .our-work .example-title {
   color: var(--title-text-color);
@@ -415,7 +419,7 @@ margin-left: 50px;
 }
 .work-examples .item{
   margin-top: 30px;
-  line-height: 0;
+  
 }
 
 .work-description{
