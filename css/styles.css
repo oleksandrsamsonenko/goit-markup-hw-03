@@ -317,6 +317,7 @@ margin-left: 50px;
 
 .nav-bottom {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--primary-darkgrey-color);
 }
 
@@ -325,18 +326,19 @@ margin-left: 50px;
   margin: 0;
 }
 
+
 .nav-bottom .howtoget{
   display: block;
-  margin-top: 20px;
 }
 .nav-bottom .item{
   display: block;
   margin-top: 9px;
 }
-.nav-bottom .item:last-child{
-  padding-bottom: 60px;
-}
 
+
+.site-address{
+  margin-top: 20px;
+}
 .site-address .howtoget {
   color: var(--primary-white-color);
   font-style: normal;
